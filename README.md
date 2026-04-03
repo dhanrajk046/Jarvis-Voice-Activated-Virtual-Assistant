@@ -1,22 +1,13 @@
 # Jarvis-Voice-Activated-Virtual-Assistant
 Jarvis is a voice-activated virtual assistant designed to perform tasks such as web browsing, playing music, fetching news, and responding to users queries using OpenAI's GPT-3.5-turbo model.
 
-FEATURES
-• Voice Recognition
-• Utilizes the speech_recognition library to listen for and recognize voice commands.
-• Activates upon detecting the wake word "Jarvis."
-• Text-to-Speech
-• Converts text to speech using pyttsx3 for local conversion.
-• Uses gTTS (Google Text-to-Speech) and pygame for playback.
-• Web Browsing.
-• Opens websites like Google, Facebook, YouTube, and LinkedIn based on voice
-commands.
-• Music Playback
-• Interfaces with a musicLibrary module to play songs via web links.
-• News Fetching
-• Fetches and reads the latest news headlines using NewsAPI.
-• OpenAI Integration
-• Handles complex queries and generates responses using OpenAI's GPT-3.5-turbo.
+Jarvis – Voice Activated Virtual Assistant | Python, Grok API
+• Developed a voice-controlled virtual assistant for task automation and AI-based responses
+• Implemented voice recognition using SpeechRecognition with wake word detection ("Jarvis")
+• Integrated LLM-based API (Grok) for intelligent query handling and conversational responses
+• Built text-to-speech system using pyttsx3 and gTTS for real-time voice interaction
+• Automated web browsing, music playback, and news fetching using APIs and Python modules
+• Designed modular command-processing workflow for efficient task execution
 • Acts as a general virtual assistant similar to Alexa or Google Assistant.
 • Activates upon detecting the wake word "Jarvis."
 • Text-to-Speech
